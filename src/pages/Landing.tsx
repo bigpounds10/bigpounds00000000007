@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import {
-  TrendingUp, Shield, BarChart3, Wallet, ArrowRight, Check, AlertTriangle,
-  Clock, Globe, BookOpen, Users,
-} from 'lucide-react'
+import { TrendingUp, Shield, BarChart3, Wallet, ArrowRight, Check, TriangleAlert as AlertTriangle, Clock, Globe, BookOpen, Users } from 'lucide-react'
 import { fetchTopCoins, fetchGlobalStats, type Coin } from '../lib/coingecko'
 import { formatCurrency, formatNumber, formatPercent } from '../lib/format'
 import TickerTape from '../components/TickerTape'

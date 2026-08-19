@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { TrendingUp, Mail, Lock, AlertCircle, ArrowLeft } from 'lucide-react'
+import { TrendingUp, Mail, Lock, CircleAlert as AlertCircle, ArrowLeft } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 
 export default function Login() {

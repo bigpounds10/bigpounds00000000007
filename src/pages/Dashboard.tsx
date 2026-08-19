@@ -1,9 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import {
-  TrendingUp, Wallet, Plus, Trash2, LogOut, Bell, PieChart as PieIcon,
-  BarChart3, AlertCircle, X, Search, Loader2,
-} from 'lucide-react'
+import { TrendingUp, Wallet, Plus, Trash2, LogOut, Bell, PieChart as PieIcon, BarChart3, CircleAlert as AlertCircle, X, Search, Loader as Loader2 } from 'lucide-react'
 import {
   PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend,
   LineChart, Line, XAxis, YAxis, CartesianGrid,
